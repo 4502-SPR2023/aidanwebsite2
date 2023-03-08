@@ -1,0 +1,46 @@
+/* Set font families for different elements */
+body {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column; 
+}
+
+header {
+  background-color: purple;
+}
+
+/* Set font family for different types of text */
+h1 {
+  font-family: "Tilt and Warp";
+}
+
+p {
+  font-family: "Sofia";
+}
+
+/* Set font family for links */
+a {
+  font-family: "Audiowide";
+}
+
+/* Apply different styles for mobile devices */
+@media (max-width: 767px) {
+  /* Make links appear vertical */
+  a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Set font size for body text */
+  body {
+    font-size: 20px;
+  }
+}
+/* Remove border on image */
+.img img {
+  border: none;
+}
